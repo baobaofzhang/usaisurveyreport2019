@@ -19,11 +19,11 @@ output:
         collapse: section
         scroll_highlight: yes
         before: |
-          <li><a href=""><b>Contents</b></a></li>
+          <li><img src="images/report_cover_letter_size.png" width="272px" hspace="12" vspace="12"/></li>
       toolbar:
         position: fixed
       download: 
-        - ["https://www.fhi.ox.ac.uk/wp-content/uploads/Deciphering_Chinas_AI-Dream-1.png", "png"]
+        - ["https://www.fhi.ox.ac.uk/wp-content/uploads/Deciphering_Chinas_AI-Dream-1.png", "PDF"]
       edit : null
       search: yes
       fontsettings:
@@ -63,8 +63,6 @@ urlcolor: blue
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
 # Executive summary 
-
-<img src="images/report_cover_letter_size.png" width="500px" />
 
 Advances in artificial intelligence (AI)[^aideffn] could impact nearly all aspects of society: the labor market, transportation, healthcare, education, and national security. These impacts could be profoundly positive, but they entail risks and disruption that warrant attention. While discussions about AI and applications of machine learning among technologists and policymakers have expanded, the voices of the public have yet to enter these conversations. In the U.S., public opinion has shaped many policy conversations, including about immigration, free trade, international conflicts, and climate change mitigation. As in these other policy domains, we expect the public to become more influential over time. It is thus vital to have a better understanding of how the public thinks about AI and the governance of AI. Such understanding is crucial for informed policy-making efforts, as well as in identifying opportunities for educating the public about AI’s character, benefits, and risks. 
 
