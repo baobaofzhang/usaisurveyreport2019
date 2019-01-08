@@ -16,11 +16,11 @@ output:
           <li><a href="https://governance.ai">Center for the Governance of AI</a></li>
           <li><a href="https://www.fhi.ox.ac.uk/">Future of Humanity Institute</a></li>
           <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
-          <li><img src="images/FHI-Logo-Print.png" width="77px" hspace="12"/><img src="images/oxford-university-logo.png" width="74px" hspace="12"/></li>
+          <li><img src="images/FHI-Logo-Print.png" alt="FHI logo" width="77px" hspace="12"/><img src="images/oxford-university-logo.png" alt="Oxford logo" width="74px" hspace="12"/></li>
         collapse: section
         scroll_highlight: yes
         before: |
-          <li><img src="images/small_logo.png" width="272px" hspace="12" vspace="12"/></li>
+          <li><img src="images/small_logo.png" alt="Report small logo" width="272px" hspace="12" vspace="12"/></li>
           <li><a href="index.html"><b>Table of Contents</b></a></li>
       toolbar:
         position: fixed
@@ -165,7 +165,6 @@ library(countrycode)
 
 # Set seed
 set.seed(7592)
-x <- 1
 
 # Wald Test function
 
