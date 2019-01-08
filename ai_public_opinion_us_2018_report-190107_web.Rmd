@@ -5,7 +5,8 @@ date: "January 2019"
 site: bookdown::bookdown_site
 output:
   bookdown::gitbook:
-    in_header: gtag.html
+    includes:
+      in_header: [gtag.html]
     url: "https://baobaofzhang.github.io/usaisurveyreport2019/"
     number_sections: yes
     fig_caption: yes
